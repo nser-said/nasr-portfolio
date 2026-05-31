@@ -62,7 +62,7 @@
             img: "img/bb.png",
             title: "footwear<br>E-Commerce Platform<br>(Strapi Backend)",
             tags: ["Strapi", "Next.js", "E-Commerce"],
-            github: "https://github.com/nser-said",
+            github: "https://github.com/nser-said/Footwear-Commerce",
             demo: "https://footwear-commerce.vercel.app/"
         },
     ];
