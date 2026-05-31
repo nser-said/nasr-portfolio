@@ -59,7 +59,7 @@
             demo: "https://furniture-store-ten-roan.vercel.app/"
         },
         {
-            img: "img/تنزيل.PNG",
+            img: "img/bb.png",
             title: "footwear<br>E-Commerce Platform<br>(Strapi Backend)",
             tags: ["Strapi", "Next.js", "E-Commerce"],
             github: "https://github.com/nser-said",
