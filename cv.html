@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasr Syed Hassanein - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: #1a1a2e; background: #f5f5f5; padding: 2rem; line-height: 1.6; }
+        .page { max-width: 210mm; margin: 0 auto; background: #fff; padding: 2.5rem; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+        .header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 3px solid #27AE60; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+        .header h1 { font-size: 2rem; font-weight: 700; color: #1a1a2e; }
+        .header h1 span { color: #27AE60; }
+        .header .title { font-size: 1rem; color: #555; margin-top: .3rem; }
+        .contact-bar { display: flex; flex-wrap: wrap; gap: 1rem; font-size: .85rem; color: #333; margin-top: .8rem; }
+        .contact-bar a { color: #27AE60; text-decoration: none; }
+        .contact-bar a:hover { text-decoration: underline; }
+        .contact-bar i { margin-right: .3rem; }
+        .section { margin: 1.5rem 0; }
+        .section h2 { font-size: 1.1rem; font-weight: 600; color: #27AE60; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #ddd; padding-bottom: .4rem; margin-bottom: .8rem; }
+        .about-text { font-size: .95rem; color: #444; }
+        .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .6rem; }
+        .skills-grid .skill { background: #f0fdf4; padding: .5rem .8rem; border-radius: 6px; font-size: .85rem; font-weight: 500; color: #1a1a2e; border-left: 3px solid #27AE60; }
+        .skills-grid .skill span { font-weight: 400; color: #666; display: block; font-size: .8rem; }
+        .exp-item { margin-bottom: 1rem; }
+        .exp-item h3 { font-size: 1rem; font-weight: 600; color: #1a1a2e; }
+        .exp-item .date { font-size: .8rem; color: #888; }
+        .exp-item p { font-size: .9rem; color: #555; margin-top: .3rem; }
+        .links-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: .5rem; }
+        .links-row a { color: #27AE60; text-decoration: none; font-size: .9rem; font-weight: 500; }
+        .links-row a:hover { text-decoration: underline; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media print { body { padding: 0; background: #fff; } .page { box-shadow: none; padding: 2rem; } }
+        @media (max-width: 600px) { .header { flex-direction: column; } .skills-grid { grid-template-columns: 1fr; } .two-col { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="header">
+        <div>
+            <h1>Nasr <span>Syed Hassanein</span></h1>
+            <div class="title">Frontend Developer</div>
+            <div class="contact-bar">
+                <span>&#9993; saed92671@gmail.com</span>
+                <span>&#9742; 01157559313</span>
+                <span>&#9906; Cairo, Egypt</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>About</h2>
+        <p class="about-text">
+            Frontend Developer specializing in building high-performance Web and Mobile applications using <strong>React, Next.js, and React Native</strong>. Expert in <strong>Jamstack architecture</strong> (Strapi / WordPress Headless) and <strong>AI-Driven</strong> interfaces.
+        </p>
+    </div>
+
+    <div class="two-col">
+        <div>
+            <div class="section">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">React / Next.js <span>SPAs, SSR, SSG, App Router</span></div>
+                    <div class="skill">React Native <span>Cross-platform mobile apps</span></div>
+                    <div class="skill">JavaScript / TypeScript <span>ES6+, async, OOP</span></div>
+                    <div class="skill">Jamstack <span>Strapi, WordPress Headless</span></div>
+                    <div class="skill">HTML / CSS / Sass <span>Responsive, Flexbox, Grid</span></div>
+                    <div class="skill">AI-Driven Development <span>LLMs, intelligent UIs</span></div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Languages</h2>
+                <div class="skills-grid">
+                    <div class="skill">Arabic <span>Professional</span></div>
+                    <div class="skill">English <span>Intermediate</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="section">
+                <h2>Experience</h2>
+                <div class="exp-item">
+                    <h3>Front-End Developer</h3>
+                    <div class="date">November 2022 - Present</div>
+                    <p>Building high-performance web and mobile applications using React, Next.js, and React Native. Delivering headless e-commerce platforms with Strapi and WordPress CMS.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Education</h2>
+                <div class="exp-item">
+                    <h3>Web Programming</h3>
+                    <div class="date">2021 - 2023</div>
+                    <p>Educational courses in web development</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Links</h2>
+        <div class="links-row">
+            <a href="https://my-site-is-personal.netlify.app" target="_blank">&#127760; Portfolio</a>
+            <a href="https://github.com/nser-said" target="_blank">&#128187; GitHub</a>
+            <a href="https://www.linkedin.com/in/nser-said/" target="_blank">&#128100; LinkedIn</a>
+            <a href="mailto:saed92671@gmail.com">&#9993; Email</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
