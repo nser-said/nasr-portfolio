@@ -66,7 +66,7 @@
             demo: "https://footwear-commerce.vercel.app/"
         },
         {
-            img: "img/YOUR_IMAGE_HERE.png",
+            img: "img/7.PNG",
             title: "POS System<br>(Desktop App)",
             tags: ["Desktop", "Next.js"],
             github: "",
