@@ -65,6 +65,13 @@
             github: "https://github.com/nser-said/Footwear-Commerce",
             demo: "https://footwear-commerce.vercel.app/"
         },
+        {
+            img: "img/YOUR_IMAGE_HERE.png",
+            title: "POS System<br>(Desktop App)",
+            tags: ["Desktop", "Next.js"],
+            github: "",
+            demo: "https://crispy-pos-2.vercel.app/"
+        },
     ];
     function renderPortfolio(filter) {
         const grid = document.getElementById("portfolio-grid");
