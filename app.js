@@ -69,7 +69,7 @@
             img: "img/77.PNG",
             title: "POS System<br>(Desktop App)",
             tags: ["Desktop", "Next.js"],
-            github: "",
+            github: "https://github.com/nser-said/crispypos",
             demo: "https://crispy-pos-2.vercel.app/"
         },
     ];
