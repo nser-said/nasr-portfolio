@@ -72,6 +72,13 @@
             github: "https://github.com/nser-said/crispypos",
             demo: "https://crispy-pos-2.vercel.app/"
         },
+        {
+            img: "img/YOUR_SCREENSHOT.png",
+            title: "Luxury Real Estate<br>Landing Page",
+            tags: ["Landing-Page", "Next.js"],
+            github: "",
+            demo: "https://luxury-real-estate-landing-page-delta.vercel.app/"
+        },
     ];
     function renderPortfolio(filter) {
         const grid = document.getElementById("portfolio-grid");
