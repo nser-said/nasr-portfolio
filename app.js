@@ -73,7 +73,7 @@
             demo: "https://crispy-pos-2.vercel.app/"
         },
         {
-            img: "img/YOUR_SCREENSHOT.png",
+            img: "img/99e.PNG",
             title: "Luxury Real Estate<br>Landing Page",
             tags: ["Landing-Page", "Next.js"],
             github: "",
