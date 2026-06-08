@@ -76,7 +76,7 @@
             img: "img/99e.PNG",
             title: "Luxury Real Estate<br>Landing Page",
             tags: ["Landing-Page", "Next.js"],
-            github: "",
+            github: "https://github.com/nser-said/Luxury-Real-Estate-Landing-Page",
             demo: "https://luxury-real-estate-landing-page-delta.vercel.app/"
         },
     ];
